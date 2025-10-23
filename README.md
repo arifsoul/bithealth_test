@@ -12,14 +12,14 @@ This repository contains the solutions for the BitHealth AI Pre-Test. The test i
 ├── LICENSE
 ├── requirements.txt          (All Python dependencies)
 │
-├── case\_1/
+├── case_1/
 │   ├── filter\_patients.ipynb (Solution for Case 1)
 │   └── patients.csv          (Data for Case 1)
 │
-├── case\_2/
+├── case_2/
 │   └── test\_data\_logic.sql   (Solution for Case 2)
 │
-└── case\_3/
+└── case_3/
 ├── .env                  (Environment variables template)
 ├── main.py               (FastAPI application for Case 3)
 └── README.md             (Detailed instructions for Case 3)
@@ -118,7 +118,7 @@ The file `case_2/test_data_logic.sql` contains the complete SQL query. It can be
     **Expected Response:**
     ```json
     {
-      "recommended_department": "Neurologi"
+      "recommended_department": "Neurology"
     }
     ```
 
